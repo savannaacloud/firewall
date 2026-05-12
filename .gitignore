@@ -1,0 +1,23 @@
+# Terraform state + locks
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Plan output
+*.tfplan
+tfplan
+
+# Local override files (operators often keep sensitive vars here)
+*.tfvars
+*.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration
+.terraformrc
+terraform.rc
